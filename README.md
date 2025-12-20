@@ -9,13 +9,21 @@ In the initial phase, SustainAction will focus on **industrial energy efficiency
 
 ---
 
-## Vision and Mission
+## Vision
 
-PAGIR (பகிர் – “to share” in Tamil) aims to be a shared digital commons for sustainability and regeneration:
+**PAGIR** (பகிர் – "to share" in Tamil) is named for its purpose.
 
-- **Vision:** Open tools that anyone can use to turn sustainability targets into real-world change, not just reports.
-  
-- **Mission:** Enable at least **10,000 organizations** and communities to collectively avoid or remove **1 million tonnes of CO₂e**, restore or conserve **10 million m²** of land and built assets, and launch **1,000 regenerative projects** by 2035, by making high-quality sustainability intelligence freely accessible.
+We enable organizations and communities to turn sustainability targets into real-world actions by sharing open knowledge, tools, and best practices. Our vision is for PAGIR to become a trusted "targets-to-actions" mapper that people can reuse and extend—a digital commons where one organization's learning becomes thousands of others' starting point.
+
+## Mission
+
+Make high-quality sustainability intelligence freely accessible through open-source, AI-powered tools that translate targets into trackable action across energy, agriculture, products, and cities.
+
+### 2035 Goal
+
+Enable **10,000 organizations and communities** to collectively:
+- **Avoid or remove 1 million tonnes of CO₂e**
+- **Implement 1,000 impactful sustainability and regeneration projects**
 
 ---
 
