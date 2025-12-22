@@ -1,0 +1,8 @@
+id,type,power_kw,annual_kwh,load_factor,location
+M1,motor,30,120000,0.4,Line 1
+M2,motor,22,85000,0.6,Line 2
+P1,pump,45,200000,0.7,Pumping station
+P2,pump,25,95000,0.8,Cooling tower
+F1,fan,35,150000,0.5,HVAC
+CA1,compressor,75,300000,0.9,Main air system
+CA2,compressor,55,220000,0.85,Backup air
