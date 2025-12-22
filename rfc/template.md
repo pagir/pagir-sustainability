@@ -1,10 +1,9 @@
----
-title: RFC [NUMBER] - [Short Title]
-author: [@username](https://github.com/username)
-status: Proposed
-type: [Amendment|Domain|Feature|Process]
-created: YYYY-MM-DD
----
+# RFC [NUMBER] – [Short Title]
+
+**Author:** [@username](https://github.com/username)  
+**Status:** Proposed  
+**Type:** Amendment / Domain / Feature / Process  
+**Created:** YYYY-MM-DD
 
 ## Summary
 [2-sentence problem + solution]
@@ -12,7 +11,7 @@ created: YYYY-MM-DD
 ## Motivation
 Why this matters for PAGIR flywheel / tCO₂e impact
 
-## Proposal  
+## Proposal
 Detailed specification + concrete changes
 
 ## Risks & Mitigations
