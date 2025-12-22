@@ -9,6 +9,17 @@ In the initial phase, SustainAction will focus on **industrial energy efficiency
 
 ---
 
+## The Problem We Solve
+
+**90% of Fortune 500 set ESG targets, only 10% deliver** due to siloed execution and missing operational roadmaps.[^1][^2]
+
+> "The biggest gap is between **ambition and execution**—companies have targets but no clear path to operationalize them." — Schneider Electric[^1]
+
+**PAGIR bridges this with AI-powered targets→actions mapping.**
+
+[^1]: [Schneider Electric: Navigating the Ambition-Action Gap](https://perspectives.se.com/blog-stream/closing-the-gap-navigating-the-ambition-action-gap-in-sustainability) (2024)
+[^2]: [WBCSD Reporting Matters 2025](https://www.wbcsd.org/resources/reporting-matters-2025-embedding-change-accelerating-impact/)
+
 ## Vision
 
 **PAGIR** (பகிர் – "to share" in Tamil) is named for its purpose.
