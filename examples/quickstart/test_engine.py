@@ -1,13 +1,18 @@
 # examples/quickstart/test_engine.py
 import sys
 import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '../../'))
+
+repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
+print(f"Adding repo root to sys.path: {repo_root}")
+sys.path.insert(0, repo_root)
+actions_path = os.path.join(repo_root, 'actions', 'energy', 'starter_actions.yaml')
+baseline_path = os.path.join(repo_root, 'examples', 'quickstart', 'plant_energy_baseline.csv')
 
 from src.core.engine.sustainaction import SustainActionEngine
 
 if __name__ == "__main__":
-    engine = SustainActionEngine("starter_actions.yaml")
-    actions = engine.match_actions("plant_energy_baseline.csv")
+    engine = SustainActionEngine(actions_path=actions_path)
+    actions = engine.match_actions(baseline_path)
     
     print("=== PAGIR SustainAction Results ===\n")
     for action in actions:
