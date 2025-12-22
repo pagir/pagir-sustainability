@@ -100,7 +100,7 @@ GATE 4: 90-Day Ratification (live pilots)
 
 ## **Current Status**
 
-🗓️ *Proposed:* 2025-12-22 | 👤 [pagir](https://github.com/pagir) | 📄 [Commit abc123]
+🗓️ *Proposed:* 2025-12-22 | 👤 [pagir](https://github.com/pagir) | 📄 [e1c7348](https://github.com/pagir/pagir-sustainability/commit/e1c7348870399f734f2c0cb676a2d53f2515efbc)
 
 📜 *Status:* DRAFT ✅ | Pilots: 0/3 | Contributors: 0/10 | tCO₂e: 0/1M
 
