@@ -1,171 +1,219 @@
+# 🌍 PAGIR - Platform for Applied Global Intelligence for Regeneration
 
-# PAGIR – Platform for Applied Global Intelligence & Regeneration
+**Planetary regeneration with shared prosperity — the full Doughnut.**
 
-PAGIR is an open-source platform that brings AI-powered tools to help organizations and communities turn sustainability goals into concrete actions across domains such as energy, products, agriculture, and cities.
+[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL%203.0-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-This repository (`pagir-sustainability`) contains the early core for **SustainAction** – a module that translates high-level targets (like “net-zero by 2040” or “30% resource reduction by 2028”) into organization-specific action plans, basic tracking, and draft ESG-aligned reporting outputs.
+**Digital public-good infrastructure** connecting planetary limits (ecological ceiling) with human well-being (social foundation).
 
-In the initial phase, SustainAction will focus on **industrial energy efficiency, IIoT, and motor-driven systems**, with additional domains (such as agriculture) added as the platform matures.
-
----
-
-## The Problem We Solve
-
-**90% of Fortune 500 set ESG targets, only 10% deliver** due to siloed execution and missing operational roadmaps.[^1][^2]
-
-> "The biggest gap is between **ambition and execution**—companies have targets but no clear path to operationalize them." — Schneider Electric[^1]
-
-**PAGIR bridges this with AI-powered targets→actions mapping.**
-
-[^1]: [Schneider Electric: Navigating the Ambition-Action Gap](https://perspectives.se.com/blog-stream/closing-the-gap-navigating-the-ambition-action-gap-in-sustainability) (2024)
-[^2]: [WBCSD Reporting Matters 2025](https://www.wbcsd.org/resources/reporting-matters-2025-embedding-change-accelerating-impact/)
-
-## Vision
-
-**PAGIR** (பகிர் – "to share" in Tamil) is named for its purpose.
-
-We enable organizations and communities to turn sustainability targets into real-world actions by sharing open knowledge, tools, and best practices. Our vision is for PAGIR to become a trusted "targets-to-actions" mapper that people can reuse and extend—a digital commons where one organization's learning becomes thousands of others' starting point.
-
-## Mission
-
-Make high-quality sustainability intelligence freely accessible through open-source, AI-powered tools that translate targets into trackable action across energy, agriculture, products, and cities.
-
-### 2035 Goal
-
-Enable **10,000 organizations and communities** to collectively:
-- **Avoid or remove 1 million tonnes of CO₂e**
-- **Implement 1,000 impactful sustainability and regeneration projects**
+> *PAGIR* (பகிர்) means "to share" in Tamil — shared intelligence for regeneration.
 
 ---
 
-## How PAGIR Works (high level)
+## 🌱 The Vision
 
-PAGIR follows a simple four-step flow:
+PAGIR empowers communities, researchers, cooperatives, and organizations to understand their impacts and design actions that:
+- **Respect planetary boundaries** (ecological ceiling)
+- **Lift all people** (social foundation)
+- **Build commons** (open knowledge)
 
-1. **Understand baselines and goals**  
-   - Collect or import simple baseline data (e.g., plant energy use, major motor and compressor loads, or other activity data).
-   - Choose reporting frameworks (GRI, TCFD, BRSR, CSRD) and set targets such as net‑zero, energy intensity reduction, circularity, or regenerative practices.
-
-2. **Translate targets into actions (SustainAction)**  
-   - Use AI and open action libraries to turn targets into concrete measures with owners, timelines, and KPIs (e.g., “retrofit motor M‑12 with VFD by Q3 2026”, “deploy sub‑metering on line 2”, “optimize control logic for pump P‑7”).
-
-3. **Connect to real-world data and track**  
-   - Integrate with existing tools (spreadsheets, energy meters, SCADA/IIoT systems, simple CSV imports first) to track progress vs. baselines and targets.
-
-4. **Report, learn, and improve the commons**  
-   - Generate draft ESG/sustainability disclosures mapped to common frameworks, with traceable evidence pointers.
-   - Optionally share anonymized learnings back into open libraries so that each deployment improves PAGIR for others.
-
-
-See more in [`docs/how-pagir-works.md`](docs/how-pagir-works.md).
+A world where every decision considers both Earth's limits and human dignity.
 
 ---
 
-## Repository Structure (early stage)
+## ✨ What PAGIR Does
 
-The structure will evolve, but the initial layout is:
+PAGIR transforms scientific and lived knowledge into actionable intelligence across **four interconnected layers**:
+
+### 1. 🏭 Operational Intelligence
+**Turn facilities into sustainable and regenerative assets**  
+```
+"Net Zero 2040" goal → VFD on Motor M-12 → -47.5 tCO2e saved → Track live performance
+```
+Energy retrofits, water optimization, waste reduction, regenerative agriculture integration, and more.
+
+### 2. 🧬 Product Intelligence  
+**Design circular products from first principles**
+```
+BOM upload → Flash LCA → MCI score → C2C-safe Material Passport
+```
+Streamlined assessments, circularity metrics, toxin screening, packaging optimization, and more.
+
+### 3. ⚖️ Compliance Intelligence
+**Generate Audit-ready reports aligned with global frameworks**
+```
+Factory data → CBAM XML → GRI 302-1 → CSRD disclosure → Digital Product Passports
+```
+Carbon border taxes, EPD preparation, global standards export, regulatory proof, and more.
+
+### 4. 🌍 Regenerative Intelligence
+**Ensure actions fit the Safe & Just Space**
+```
+Action impact → Planetary Boundaries check → Social foundation metrics → "Regenerate ✓"
+```
+Doughnut context, planetary limits, shared prosperity validation, holistic decision support, and more.
+
+---
+
+## 🚀 Quick Start
+
+### Installation
+```bash
+git clone https://github.com/pagir/pagir-sustainability.git
+cd pagir-sustainability  
+python scripts/setup_dev.py
+```
+
+### Run Your First Analysis
+```bash
+python engine.py
+```
+
+**Sample Output:**
+```
+━━━ PAGIR REGENERATIVE INTELLIGENCE REPORT ━━━
+Asset: MTR-001 → VFD Retrofit Recommendation
+
+Planetary Impact: -47.5 tCO2e/year (Within Safe Space ✓)
+Prosperity Impact: +2 local jobs (Above Social Floor ✓)
+Circularity: MCI 0.72 (Good - 72% material retention)
+
+Status: RECOMMENDED for implementation
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+---
+
+## 📁 Architecture
 
 ```
 pagir-sustainability/
-├── README.md
-├── LICENSE
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-├── SECURITY.md
-│
-├── docs/
-│   ├── index.md
-│   ├── how-pagir-works.md
-│   └── quickstart.md
-│
 ├── src/
-│   ├── core/
-│   │   ├── models/      # Targets, Actions, KPIs, Orgs, DataQuality, Boundaries
-│   │   ├── engine/      # SustainAction core (target → action logic)
-│   │   └── api/         # Simple API endpoints
-│   └── modules/
-│       └── sustainaction/
-│
-├── actions/
-│   ├── README.md
-│   ├── schema.json      # Action template schema
-│   └── energy/
-│       └── starter_actions.yaml   # first library: motors, compressors, utilities
-│   # └── agri/          # agriculture library to be added later
-│
-├── examples/
-│   └── quickstart/
-│       ├── plant_energy_baseline.csv
-│       └── quickstart_notebook.ipynb
-│
-└── .github/
-    ├── ISSUE_TEMPLATE/
-    └── PULL_REQUEST_TEMPLATE.md
+│ ├── core/ # Universal intelligence engine
+│ └── modules/
+│    ├── operational/ # Energy, water, waste optimization
+│    ├── product/ # LCA, C2C principles, MCI
+│    ├── compliance/ # CBAM, GRI, CSRD, EPDs
+│    └── regenerative/ # Planetary + Justice frameworks
+├── actions/ # Open knowledge action templates
+├── docs/
+│ ├── concepts/ # Doughnut, Planetary Boundaries
+│ └── governance/ # Stewardship & contribution guides
+└── tests/ # Comprehensive test suite
 ```
 
-- **Actions as data:** domain experts can contribute YAML/JSON action templates (e.g., motor audits, VFD retrofits, compressed-air leak management) without touching application code.
-- **Configs and examples:** help users get to a first “targets → actions” plan quickly, starting with industrial energy efficiency.
+---
+
+## 📊 Current Status
+
+**Version:** `0.1.0-alpha` *(Early development)*
+
+**What's Working:**
+- ✅ Action template matching
+- ✅ Basic impact calculations  
+- ✅ Clean 4-layer architecture
+
+**Join the Build:**
+Early testers, template writers, documentation contributors **welcome**!
+
+***
+
+## 🆕 Call for Founding Stewards
+
+**Founding Stewards** co‑shape PAGIR's vision and roadmap:
+
+- **Technical Steward** - Flash LCA engine (Python/Pandas), core architecture
+
+- **Energy Steward** - Operational templates (VFDs, HVAC, water optimization)
+
+- **Product Steward** - BOM/LCA tools, circularity expertise (MCI, C2C)
+
+- **Compliance Steward** - CBAM/GRI reporting, regulatory frameworks
+
+- **Commons Steward** - Documentation, outreach, community building
+
+**Steward Impact:**
+- **Own** a pillar of intelligence 
+- **Shape** the roadmap
+- **Build** the commons together
+
+**Apply:** [Stewardship Discussion](https://github.com/pagir/pagir-sustainability/discussions/categories/stewardship)
 
 ---
 
-## Status
+## 🤝 Governance & Community
 
-This project is in a **pre‑alpha, experimental** phase:
+**PAGIR is governed as a digital commons** to ensure it serves people and planet, not profit extraction.
 
-- APIs, schemas, and folder structure **may change**.  
-- Initial focus:  
-  - A minimal SustainAction engine for **energy / IIoT / motor systems**.  
-  - A small energy-efficiency action library (motors, pumps, fans, compressors, utilities).
-  - A simple quickstart path using CSV + notebook for a sample plant.
+### Governance Structure
+- **Core Maintainers:** Technical architecture and code quality
+- **Stewardship Council:** Strategic vision and sustainable funding  
+- **Action Curators:** Knowledge validation and best practices
+- **Contributors:** Anyone can propose features and improvements
 
-Agriculture and other domains will be added after the first energy-focused module is working well.
+**Get Involved:** See [Stewardship membership tiers](docs/governance/MEMBERSHIP.md) and [Contributing guidelines](CONTRIBUTING.md)
 
-Contributions, feedback, and early pilots are very welcome.
-
----
-
-## Getting Started
-
-Until a full quickstart is ready, the rough steps will be:
-
-1. Clone the repository:
-
-   ```
-   git clone https://github.com/pagir/pagir-sustainability.git
-   cd pagir-sustainability
-   ```
-
-2. Open `examples/quickstart/quickstart_notebook.ipynb`.  
-3. Load `plant_energy_baseline.csv` and run the notebook to generate a small set of suggested energy-efficiency actions.
-
-Detailed instructions will be documented in [`docs/quickstart.md`](docs/quickstart.md).
+### Community Channels
+- **Discussions:** [GitHub Discussions](https://github.com/pagir/pagir-sustainability/discussions)
+- **Issues:** [Bug reports & feature requests](https://github.com/pagir/pagir-sustainability/issues)
+- **Proposals:** [Enhancement proposals](docs/governance/PROPOSALS.md)
 
 ---
 
-## Contributing
+## 🎓 Core Concepts
 
-PAGIR is intended as a **commons project**. Contributions are welcome in many forms:
+PAGIR is built on four foundational frameworks:
 
-- Improving documentation and examples.  
-- Adding or refining **energy efficiency** action templates under `actions/energy/`.  
-- Building adapters for common data sources (meters, SCADA, IIoT gateways, spreadsheets). 
-- Enhancing the SustainAction engine logic and data quality handling.
-
-Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) (to be drafted) before opening issues or pull requests.
+- **[Doughnut Economics](docs/concepts/doughnut.md):** Operating within ecological ceiling while meeting social foundation
+- **[Planetary Boundaries](docs/concepts/planetary.md):** Nine critical Earth systems defining safe operating space  
+- **[Circular Economy](docs/concepts/circular.md):** MCI metrics + Cradle to Cradle principles
+- **[Regenerative Design](docs/concepts/regenerative.md):** Active restoration of ecosystems and communities
 
 ---
 
-## License
+## 📚 Documentation
 
-This project is licensed under the **GNU Affero General Public License v3.0 (AGPL‑3.0)**.
-
-You are free to run, study, share, and modify the software. If you modify PAGIR and make it available to others over a network (for example, as a hosted service), you must also make your modified source available under the same license.
-
-See [`LICENSE`](LICENSE) for the full text.
+- **[Installation Guide](docs/installation.md)** - Detailed setup instructions
+- **[User Guide](docs/user-guide.md)** - Working with each intelligence layer
+- **[API Reference](docs/api/)** - Developer documentation
+- **[Action Library](actions/)** - Browse validated interventions
 
 ---
 
-## Contact
+## 🌟 Use Cases
 
-- GitHub Org: https://github.com/pagir  
-- Email: **pagir.sustainability@gmail.com**
+PAGIR serves diverse actors working toward regeneration:
+
+- **Cooperatives:** Assess community solar projects against prosperity + climate goals
+- **Manufacturers:** Design circular products with full lifecycle transparency
+- **Cities:** Plan infrastructure that respects planetary boundaries
+- **Researchers:** Model regenerative transitions with integrated frameworks
+- **NGOs:** Validate intervention strategies with holistic impact metrics
+
+---
+
+## 📄 License
+
+AGPL-3.0 - This ensures PAGIR remains a digital public good. See [LICENSE](LICENSE) for details.
+
+---
+
+## 🙏 Inspired By
+
+PAGIR stands on the shoulders of sustainability pioneers:
+- **Kate Raworth** – Doughnut Economics
+- **Johan Rockström et al** – Planetary Boundaries  
+- **Ellen MacArthur Foundation** – Circular Economy principles
+- **Countless researchers** advancing regenerative science
+
+---
+
+**Made with 💚 for people & planet**
+
+*PAGIR (பகிர்) - To Share*
+
+---
+
+**Ready to contribute?** Start with our [First Contribution Guide](docs/FIRST_CONTRIBUTION.md) or join the conversation in [Discussions](https://github.com/pagir/pagir-sustainability/discussions).
